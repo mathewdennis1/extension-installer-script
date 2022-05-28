@@ -39,5 +39,6 @@ head -n -2 phoenix/src/extensions/default/DefaultExtensions.json > temp.txt
 echo "  "'"'$ext'"' >> temp.txt
 echo "]" >> temp.txt
 mv temp.txt phoenix/src/extensions/default/DefaultExtensions.json
-#rm -Rf temp
 
+# run the script again and again
+./flash.sh
