@@ -26,7 +26,7 @@ if [ -e package.json ]
       echo "  complex package mode  "
       echo " "
       cd ..
-      mv  $ext/*/* $ext/
+      mv -R $ext/*/* $ext/
       rm  $ext/temp.zip
       cd ..    
 fi
